@@ -1,12 +1,19 @@
-body {
-    background: #cccccc;
+/* Header */
+
+.main-title {
+    padding-left: 20px;
 }
 
 #banner {
     width: 100%;
 }
 
-h1 {
+#main-content-container {
+    background: #cccccc;
+    padding: ;
+}
+
+.centralized-title {
     text-align: center;
 }
 
@@ -20,4 +27,23 @@ p {
 
 em strong {
     color: #ff0000;
+}
+
+.item {
+    font-style: italic;
+}
+
+#benefit-container {
+    padding: 20px;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.benefit {
+    width: 50%;
 }
