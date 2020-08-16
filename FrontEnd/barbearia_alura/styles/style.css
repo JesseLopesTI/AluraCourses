@@ -93,6 +93,10 @@ form label, form legend {
   margin: 0 0 10px;
 }
 
+.space {
+  padding: 10px 0 0;
+}
+
 .standard-input {
   display: block;
   margin: 0 0 20px;
@@ -102,18 +106,6 @@ form label, form legend {
 
 .checkbox {
   margin: 20px 0;
-}
-
-footer {
-  text-align: center;
-  background-image: url("/images/bg.jpg");
-  padding: 40px 0;
-}
-
-.copyright {
-  color: #ffffff;
-  font-size: 13px;
-  padding: 20px 0 0;
 }
 
 .form-button {
@@ -132,4 +124,31 @@ footer {
 .form-button:hover {
   background: #ff8c00;
   transform: scale(1.2);
+}
+
+table {
+  margin: 20px 0 40px;
+}
+
+thead {
+  background: #555555;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+td, th {
+  border: 1px solid #000000;
+  padding: 15px 8px;
+}
+
+footer {
+  text-align: center;
+  background-image: url("/images/bg.jpg");
+  padding: 40px 0;
+}
+
+.copyright {
+  color: #ffffff;
+  font-size: 13px;
+  padding: 20px 0 0;
 }
