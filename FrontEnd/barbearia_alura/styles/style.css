@@ -1,3 +1,7 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 header {
   background: #bbbbbb;
   padding: 20px 0;
@@ -78,11 +82,6 @@ nav a:hover {
   margin-top: 10px;
 }
 
-main {
-  width: 940px;
-  margin: 0 auto;
-}
-
 form {
   margin: 40px 0;
 }
@@ -152,3 +151,103 @@ footer {
   font-size: 13px;
   padding: 20px 0 0;
 }
+
+.banner {
+  width: 100%;
+}
+
+.main-content-container {
+  padding: 3em 0;
+  background: #fefefe;
+  width: 940px;
+  margin: 0 auto;
+}
+
+.main-content-container p {
+  margin: 0 0 1em;
+}
+
+.main-content-container strong {
+  font-weight: bold;
+}
+
+.main-content-container em {
+  font-style: italic;
+}
+
+.main-title {
+  text-align: center;
+  font-size: 2em;
+  margin: 3rem 0 1em;
+  clear: left;
+}
+
+.main-title:first-letter {
+  font-weight: bold;
+}
+
+.secondary-title {
+  text-align: center;
+  font-size: 2em;
+  margin: 0 0 1em;
+  clear: left;
+}
+
+.utensils {
+  width: 120px;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.map {
+  padding: 3em 0;
+  background: linear-gradient(#fefefe, #888);
+}
+
+.map p {
+  margin: 0 0 2em;
+  text-align: center;
+}
+
+.content-map {
+  width: 940px;
+  margin: 0 auto;
+}
+
+#benefit-container {
+  padding: 3em 0;
+  background: #888;
+}
+
+.benefit-content-container {
+  width: 640px;
+  margin: 0 auto;
+}
+
+.benefit-list {
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.item {
+  line-height: 1.5;
+}
+
+.item:before {
+  content: "★";
+}
+
+.item:first-child {
+  font-weight: bold;
+}
+
+.benefit {
+  width: 60%;
+}
+
+.video-container {
+  width: 560px;
+  margin: 2em auto;
+}
+
