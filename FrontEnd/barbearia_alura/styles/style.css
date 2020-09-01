@@ -244,6 +244,13 @@ footer {
 
 .benefit {
   width: 60%;
+  opacity: 1;
+  transition: 400ms;
+  box-shadow: 10px 10px 10px 0 #000;
+}
+
+.benefit:hover {
+  opacity: 0.3;
 }
 
 .video-container {
@@ -251,3 +258,28 @@ footer {
   margin: 2em auto;
 }
 
+@media screen and  (max-width: 480px) {
+  .header-container,
+  .main-content-container,
+  .content-map,
+  .benefit-content-container,
+  .video-container {
+    width: auto;
+  }
+
+  header {
+    padding: ;
+  } 
+
+  nav {
+    position: static;
+  }
+
+  .main-title {
+    text-align: center;
+  }
+
+  .benefit-list, .benefit {
+    width: 100%;
+  }
+}
